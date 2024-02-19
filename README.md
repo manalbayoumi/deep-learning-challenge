@@ -98,8 +98,10 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 	3. Push the added files to GitHub.
 
 ## Deep Learning Results     
-![model.PNG](model.PNG)
-![report.PNG](report.PNG)
+![model.PNG](model.PNG)    
+
+![report.PNG](report.PNG)    
+
 ![Epoch.PNG](Epoch.PNG)
 
 ## Conclusion:
