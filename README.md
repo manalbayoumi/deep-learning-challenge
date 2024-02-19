@@ -98,11 +98,11 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 	3. Push the added files to GitHub.
 
 ## Deep Learning Results     
-![model](model.PNG)    
+![model.PNG](../model.PNG)    
 
-![report](report.PNG)    
+![report.PNG](../report.PNG)    
 
-![Epoch](Epoch.PNG)
+![Epoch.PNG](../Epoch.PNG)
 
 ## Conclusion:
 The precision for the  class (0) is 100% which means the model correctly made the positive prediction everytime. The recall of that class is 99%.            
