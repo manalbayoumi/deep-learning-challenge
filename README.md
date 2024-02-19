@@ -98,16 +98,10 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 	3. Push the added files to GitHub.
 
 ## Deep Learning Results     
-![model.PNG](../model.PNG)    
+![model.PNG](model.PNG)    
 
-![report.PNG](../report.PNG)    
+![report.PNG](report.PNG)    
 
-![Epoch.PNG](../Epoch.PNG)
+![Epoch.PNG](Epoch.PNG)
 
 ## Conclusion:
-The precision for the  class (0) is 100% which means the model correctly made the positive prediction everytime. The recall of that class is 99%.            
-
-The precision for class (1) is not good as expected because the percision is only 84%, but the recall for class (1) is acceptable, it predicted a higher risk sample.       
-
-On the other hand, the previous model recall is 94% and this oversampling recall model is 99%, which means this model has a higher standard because the recall is high. At the new standard, the percision is 84%. 
-I recommend using that model because that model has higher accuracy, percision, and recall as shown in the calculation for the first model and for the oversampling data.
