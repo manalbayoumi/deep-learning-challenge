@@ -104,11 +104,11 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 	3. Push the added files to GitHub.
 
 ## Deep Learning Results     
-![model.PNG](./Alphabet\ Soup/model.PNG)    
+![model.PNG](./Alphabet%20Soup/model.PNG)    
 
-![report.PNG](./Alphabet\ Soup/report.PNG)    
+![report.PNG](./Alphabet%20Soup/report.PNG)    
 
-![Epoch.PNG](./Alphabet\ Soup/Epoch.PNG)
+![Epoch.PNG](./Alphabet%20Soup/Epoch.PNG)
 
 ## Conclusion
 For this model, the loss is 56% and accuracy is 72% after 100 epoch run. When the neural network model is running, the loss should drop and approach zero, at the same time the accuracy should rise. So, 72% of accuracy is good enough, but 56% of loss is not good and far away from having a successful model. We have to retrain the model to lower the loss using the techniques listed above. 
