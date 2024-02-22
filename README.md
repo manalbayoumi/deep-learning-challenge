@@ -19,7 +19,7 @@
 	* IS_SUCCESSFUL—Was the money used effectively
 
 3. **Deep Learing Process**
-	The deep Learning Process has 3 steps. Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+	The deep Learning Process has 3 steps. Using your knowledge of Pandas and scklearn, you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
 	Start by uploading the starter file to Google Colab, then using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
 	* Step 1: Preprocess the Data
 	1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
@@ -73,13 +73,19 @@
 
 	* Compiling, Training, and Evaluating the Model
 	* How many neurons, layers, and activation functions did you select for your neural network model, and why?
- 	I had 2 tries 
+ 	I have 4 layers, 3 input layers, 2 hidden layers and 1 output layers. I have 43+80+30+1=154 neurons. I have 2 activitation functions. I am using the relu function because X is non linear relationship. For the output, I am using the Sigmoid because the result is two value classifications. 
 
-	* Were you able to achieve the target model performance? The best I got accuracy 0.7402
-	* What steps did you take in your attempts to increase model performance? 
+	* Were you able to achieve the target model performance? The best I got an accuracy of 0.7402.
+
+	* What steps did you take in your attempts to increase model performance? There are four ways to increase the performance:
+	1. Increase layer of neural network and check if performance is getting better.
+	2. Adjusting the neural unit number. Using too few neural numbers may lead to underfitting. On other hand, using too many neural numbers may result in overfitting.
+	3. You can change the activitation function, for hidden layer use `relu` and for classification we can use `Sigmoid`, for multiple classification use `softmax`, for regression use `linear`
+	4. Increase the number of epochs.
+
 
 	3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-	 
+	 For this model, the loss is 56% and accuracy is 72% after 100 epoch run. When the neural network model is running, the loss should drop and approach zero, at the same time the accuracy should rise. So, 72% of accuracy is good enough, but 56% of loss is not good and far away from having a successful model. We have to retrain the model to lower the loss using the techniques listed above. 
 
 		
 4. **Machine Learning Packages**     
@@ -98,10 +104,11 @@ Now that you're finished with your analysis in Google Colab, you need to get you
 	3. Push the added files to GitHub.
 
 ## Deep Learning Results     
-![model.PNG](model.PNG)    
+![model.PNG](./Alphabet\ Soup/model.PNG)    
 
-![report.PNG](report.PNG)    
+![report.PNG](./Alphabet\ Soup/report.PNG)    
 
-![Epoch.PNG](Epoch.PNG)
+![Epoch.PNG](./Alphabet\ Soup/Epoch.PNG)
 
-## Conclusion:
+## Conclusion
+For this model, the loss is 56% and accuracy is 72% after 100 epoch run. When the neural network model is running, the loss should drop and approach zero, at the same time the accuracy should rise. So, 72% of accuracy is good enough, but 56% of loss is not good and far away from having a successful model. We have to retrain the model to lower the loss using the techniques listed above. 
